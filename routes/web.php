@@ -22,3 +22,7 @@ Route::get('contact', 'PagesController@contact');
 //auth
 
 Auth::routes();
+
+//posts
+
+Route::resource('posts', 'PostsController');
